@@ -33,8 +33,8 @@ document.querySelector('.buttons').onclick = (event) => {
     if (digit.includes(key)) {
         if (b==='' && sign==='') {
             a += key;
-        console.log(a, b, sign);
-        out.textContent = a;
+            console.log(a, b, sign);
+            out.textContent = a;
         }
         else if (a!=='' && b!=='' && finish) {
             b = key;
